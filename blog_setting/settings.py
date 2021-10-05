@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['blogdjango-live.herokuapp.com', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
+    'users.apps.UsersConfig',
     'blogapp.apps.BlogappConfig',
     'django.contrib.admin',
     'django.contrib.auth',
